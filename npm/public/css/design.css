@@ -1,0 +1,47 @@
+@charset "utf-8";
+#dhome{
+	color: #fff;
+}
+#design{
+    margin-top: 75px; 
+    text-align: center;
+}
+#design h1{
+	color: green;
+	font-weight: bold;
+	font-size: 38px;
+}
+#design .col-md-12 img{
+	width: 2000px;
+	height: 600px;
+}
+#pic{
+	background: lightyellow;
+}
+#pic h3{
+	color: black;
+	font-size: 28px;
+	line-height: 42px;
+	margin-top: 38px;
+}
+#pic h3:hover{
+	background: orange;
+	text-decoration: underline;
+}
+#pic .col-md-10 span{
+	font-size: 78px;
+	color:darkgreen;
+}
+#pic .col-md-10 img{
+	width: 1000px;
+	height: 600px;
+}
+
+#pic .col-md-10 img:hover{
+	border: 5px solid darkgreen;
+	transform: translate(0, -10px);
+}
+
+#footer{
+	color: #000000;
+}

@@ -1,0 +1,26 @@
+@charset "utf-8";
+body{
+	font-family: "微软雅黑"; 
+}
+h2{
+	color: green;
+	font-weight: bold;
+}
+nav{
+	height: 70px;
+	background-color: #fff;
+	border: none;
+	box-shadow: 0 3px 8px rgba(50,50,50,0.38);
+}
+.navbar-collapse.collapse{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+button.navbar-toggle{
+	margin-top: 16px;
+}
+#footer{
+	padding: 30px 0;
+	text-align: center;
+}

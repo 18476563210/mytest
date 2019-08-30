@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>爱家家居 | 海量精品...</title>
+		<link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=wtGmT4kA02CGzTPmordofb1bbvqlxNPo"></script>
+		<link href="https://cdn.bootcss.com/animate.css/3.2.2/animate.css" rel="stylesheet">
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			#allmap img {
+				width: 100px;
+				height: 100px;
+				border-radius: 75px;
+			}
+			
+			body,
+			html,
+			#allmap {
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				font-family: "微软雅黑";
+			}
+		</style>
+	</head>
+
+	<body>
+		<!--导航栏-->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar">
+				</span>
+				<span class="icon-bar">
+				</span>
+				<span class="icon-bar">
+				</span>
+			</button>
+					<a href="index.html" class="navbar-brand">
+						<img src="img/logo.jpg" alt="Aijia.com" style="width: 120px; height: 120px;border-radius: 75px;" />
+					</a>
+				</div>
+
+				<div class="navbar-collapse collapse">
+
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="index.html">首页</a>
+						</li>
+						<li>
+							<a href="design.html">设计赏</a>
+						</li>
+						<li>
+							<a href="tip.html">攻略</a>
+						</li>
+						<li>
+							<a href="contract.html">联系我们</a>
+						</li>
+						<li>
+							<a href="total.html">爱家中心</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</nav>
+		<!--导航栏-->
+		<section id="search">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<form class="navbar-form navbar-right" role="search">
+							<div class="form-group">
+								<input type="text" class="form-control" id="sousuo" placeholder="请输入搜索内容......">
+							</div>
+							<button type="submit" class="btn btn-default">搜索</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--Home-->
+		<section id="home">
+			<div class="mask">
+				<div class="container">
+					<div class="row wow bounceInDown">
+						<div class="col-md-1"></div>
+						<div class="col-md-10 wow fadeInUpBig">
+							<h1>爱家家居<br>海量精品房任君选择!</h1>
+							<p>生活的理想，就是为了理想的生活。现在，都市的宁静栖息地，就在眼前。</p>
+							<img src="img/bangongshi.jpg" class="img-responsive" alt="" />
+						</div>
+						<div class="col-md-1"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--Home-->
+		<section id="mupl">
+			<div class="container">
+				<div class="row wow bounceInLeft">
+					<div class="col-md-4">
+						<img src="img/4.jpg" class="img-responsive" />
+						<h2>爱家|复古客厅</h2>
+						<p>复古客厅可以给您和家人带来温馨的感觉，采用的材料都是上等的木料</p>
+					</div>
+
+					<div class="col-md-4">
+						<img src="img/chufang2.jpg" class="img-responsive" />
+						<h2>爱家|欧式厨房</h2>
+						<p>欧式厨房的特点就是空间比较大，是一个可以让你的夫人一展身手的好地方</p>
+					</div>
+
+					<div class="col-md-4">
+						<img src="img/weishengjian.jpg" class="img-responsive" />
+						<h2>爱家|现代浴室</h2>
+						<p>现代浴室的特点就是有空间、光线好、应有尽有，沐浴着健康</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="stpe">
+			<div class="container">
+				<div class="row wow bounceInLeft">
+					<div class="col-md-7">
+						<h2>爱家|现代大厅堂</h2>
+						<p>浪漫而不失大雅，高贵而富有气质，大厅整体感与材料质感雕塑人文轻松的空间氛围，给人一种舒适感</p>
+						<p>休闲舒雅，琴声乐韵，好友畅谈，魅力无法挡，厅顶上的木条背景加上绿色的衬托，让人眼前一亮</p>
+						<p>高尚有逼格的大厅堂，让您别无选择，爱家给您倾情奉献</p>
+					</div>
+					<div class="col-md-5">
+						<img src="img/xiandai.jpg" alt="" class="img-responsive" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<div id="allmap" style="height: 555px;">
+		</div>
+		<!--footer-->
+		<footer id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<p><span class="glyphicon glyphicon-phone-alt"></span>联系电话：184 765 63210</p>
+						<p><span class="glyphicon glyphicon-envelope"></span>邮箱：2339093596@qq.com</p>
+						<p><span class="glyphicon glyphicon-home"></span>地址：广东省广州市同和区白云大道北金箔广场三楼15号</p>
+						<p>&copy; Copyright 2019-2020 Aijia爱家家居品牌 版权所有</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+	<script src="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdn.bootcss.com/wow/1.1.2/wow.js"></script>
+
+	<script type="text/javascript">
+		var map = new BMap.Map("allmap");
+		var point = new BMap.Point(113.331874, 23.201908);
+		map.centerAndZoom(point, 13);
+
+		var pt = new BMap.Point(113.331874, 23.201908);
+		var myIcon = new BMap.Icon("img/timg.gif", new BMap.Size(100, 100));
+		var marker2 = new BMap.Marker(pt, {
+			icon: myIcon
+		});
+		map.addOverlay(marker2);
+
+		map.centerAndZoom(new BMap.Point(113.331874, 23.201908), 11);
+		// 添加带有定位的导航控件
+		var navigationControl = new BMap.NavigationControl({
+			// 靠左上角位置
+			anchor: BMAP_ANCHOR_TOP_LEFT,
+			// LARGE类型
+			type: BMAP_NAVIGATION_CONTROL_LARGE,
+			// 启用显示定位
+			enableGeolocation: true
+		});
+		map.addControl(navigationControl);
+		// 添加定位控件
+		var geolocationControl = new BMap.GeolocationControl();
+		geolocationControl.addEventListener("locationSuccess", function(e) {
+			// 定位成功事件
+			var address = '';
+			address += e.addressComponent.province;
+			address += e.addressComponent.city;
+			address += e.addressComponent.district;
+			address += e.addressComponent.street;
+			address += e.addressComponent.streetNumber;
+			alert("当前定位地址为：" + address);
+		});
+		geolocationControl.addEventListener("locationError", function(e) {
+			// 定位失败事件
+			alert(e.message);
+		});
+		map.addControl(geolocationControl);
+	</script>
+	<script type="text/javascript">
+		//初始化一个动画对象
+		new WOW().init();
+
+		$(document).ready(function() {
+			$("#sousuo").focus(function() {
+				$(document).keydown(function(e) {
+					if(e.keyCode == 13) {
+
+						var aaa = "https://www.baidu.com/s?ie=UTF-8&wd=" + $("#sousuo").val();
+						window.location.href = aaa
+
+					}
+				});
+			});
+		});
+	</script>
+
+</html>
